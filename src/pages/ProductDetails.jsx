@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
-import { CartContext } from "../Contexts/CartContext";
+import { CartContext } from "../contexts/CartContext";
 import { ProductContext } from "../Contexts/ProductContext";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
