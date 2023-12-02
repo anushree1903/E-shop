@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="container mx-auto flex justify-between items-center h-full">
         {/* text */}
         <motion.div
-          className="flex flex-col justify-center w-1/2 pl-16"
+          className="flex flex-col justify-center w-1/2"
           ref={textRef}
           variants={{
             hidden: { opacity: 0, x: -100 },
